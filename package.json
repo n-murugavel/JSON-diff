@@ -1,11 +1,38 @@
 {
-	"dependencies": {
-		"angular": "^1.5.8",
-		"angular-animate": "^1.5.8",
-		"angular-aria": "^1.5.8",
-		"angular-material": "^1.1.0",
-		"angular-messages": "^1.5.8",
-		"font-awesome": "^4.6.3",
-		"underscore": "^1.8.3"
-	}
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.0",
+    "angular-messages": "^1.5.8",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "semver": "^5.3.0",
+    "underscore": "^1.8.3"
+  },
+  "name": "json-diff",
+  "description": "This is a tool to compare two different JSON inputs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-murugavel/JSON-diff.git"
+  },
+  "keywords": [
+    "json",
+    "compare",
+    "json-compare",
+    "diff",
+    "json-diff"
+  ],
+  "author": "Murugavel N",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-murugavel/JSON-diff/issues"
+  },
+  "homepage": "https://github.com/n-murugavel/JSON-diff#readme"
 }
